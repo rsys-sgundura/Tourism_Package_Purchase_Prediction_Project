@@ -27,8 +27,7 @@ st.title("Tourism Package Purchase Prediction App")  # Application title
 st.write("""
 The Tourism Package Purchase Prediction App is a tool used by the travel company named **"Visit with Us"**.  
   
-The App helps to predict whether a customer would purchase the newly introduced **Wellness Tourism Package**  
-before contacting them, making use of the customer details.
+The App helps to predict whether a customer would purchase the newly introduced **Wellness Tourism Package**.
 
 """)
 
