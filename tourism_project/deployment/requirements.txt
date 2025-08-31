@@ -1,0 +1,28 @@
+# ---------------------------------------------
+# requirements.txt for Tourism Project Deployment
+# ---------------------------------------------
+# This file specifies all Python dependencies 
+# required to run the Streamlit deployment app 
+# and training pipeline in a reproducible environment.
+# ---------------------------------------------
+
+# Data manipulation and analysis
+pandas==2.2.2      
+
+# For downloading models/datasets from Hugging Face Hub
+huggingface_hub==0.32.6  
+
+# Web application framework to build interactive UI for prediction
+streamlit==1.43.2        
+
+# For saving and loading trained ML models
+joblib==1.5.1            
+
+# Machine learning library (used for preprocessing, pipelines, etc.)
+scikit-learn==1.6.0      
+
+# Gradient boosting framework used to train the prediction model
+xgboost==2.1.4           
+
+# ML lifecycle tracking and experiment management (used for logging experiments)
+mlflow==3.0.1            

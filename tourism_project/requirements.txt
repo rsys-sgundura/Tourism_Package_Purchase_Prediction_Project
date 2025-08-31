@@ -1,0 +1,15 @@
+# --------------------------------------------------------
+# Project Requirements File
+# --------------------------------------------------------
+# This file lists all Python dependencies needed for the 
+# Tourism Package Purchase Prediction project.
+# It ensures that the same environment can be recreated 
+# during training, deployment, and hosting.
+# --------------------------------------------------------
+
+huggingface_hub==0.32.6   # For interacting with Hugging Face Hub (uploading models, datasets, spaces)
+datasets==3.6.0           # For handling and processing datasets (Hugging Face datasets library)
+pandas==2.2.2             # For data manipulation and preprocessing (DataFrames, CSV handling)
+scikit-learn==1.6.0       # For ML utilities (train-test split, preprocessing, metrics, pipelines)
+xgboost==2.1.4            # Gradient boosting algorithm for model training
+mlflow==3.0.1             # For experiment tracking, model logging, and versioning
